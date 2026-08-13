@@ -10,7 +10,7 @@ class Food_Seafood(Food):
 	pass
 
 costumer1 = Food('Dendeng Mercon', 100, 25, 10)
-costumer2 = Food_Seafood('Bandeng', 100, 35, 20)
+costumer2 = Food_Seafood('Bandeng Rica-Rica', 100, 35, 20)
 
 print(costumer1.foodName)
 print(costumer2.__dict__)
