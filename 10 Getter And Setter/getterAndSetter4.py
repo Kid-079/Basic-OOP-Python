@@ -4,7 +4,7 @@ class Food:
 		self.foodName = inputFoodName
 		self.__health = inputHealth
 		self.__flavor = inputFlavor
-		self.__foodName = inputSpicyLevel
+		self.__spicy = inputSpicyLevel
 		self.info = "Food Name {} : \n\tSpicy Level {}".format(self.foodName, self.__spicy)
 		# self.__info = "Food Name {} : \n\tSpicy Level {}".format(self.__foodName, self.__spicy)
 
