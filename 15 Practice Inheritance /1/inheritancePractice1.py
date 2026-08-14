@@ -9,12 +9,12 @@ class Food:
 		self.__level = 0
 
 	def show_info(self):
-		print("{} \n\tLevel Spicy Food: {}, \n\tHealth: {}, \n\tSpicy: {}, \n\tFlavor: {}".format(
+		print("{} \n\tLevel Spicy Food: {}, \n\tHealth: {}, \n\tFlavor: {}, \n\tSpicy: {}".format(
 			self.__foodName,
 			self.__level,
 			self.__health,
-			self.__spicy,
-			self.__flavor
+			self.__flavor,
+			self.__spicy
 			)
 		)
 
