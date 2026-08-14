@@ -7,7 +7,7 @@ class Food:
 		# self.flavor = inputFlavorLevel
 
 	def showInfo(self):
-		print("{} - Level Spicy Food --> ".format(self.foodName,self.spicy))
+		print("{} - Level Spicy Food: --> {}".format(self.foodName,self.spicy))
 
 class Food_Seafood(Food):
 	def __init__(self, inputSeafoodName):
